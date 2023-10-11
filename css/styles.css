@@ -50,7 +50,7 @@ img {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   padding-left: 0;
   padding-right: 0;
   margin: 0 auto;
@@ -67,7 +67,6 @@ img {
   display: flex;
   gap: 40px;
   margin-left: 76px;
-  padding: 24px 0;
 }
 
 .nav-item {
@@ -79,6 +78,7 @@ img {
 .nav-link {
   color: #2e2f42;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .address-info {
