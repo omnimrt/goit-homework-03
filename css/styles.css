@@ -144,8 +144,10 @@ img {
   cursor: pointer;
   padding: 16px 32px;
   border-radius: 4px;
-  box-shadow: none;
+  border: none;
   height: 56px;
+  display: block;
+  min-width: 169px;
 }
 
 .button:hover,
