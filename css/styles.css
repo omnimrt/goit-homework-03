@@ -181,9 +181,6 @@ img {
 
 .feature-list-item {
   width: calc((100% - 24px) / 4);
-}
-
-.img {
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -197,12 +194,17 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.feature-title {
+  text-align: center;
   margin-bottom: 8px;
 }
 
 .feature-text {
   color: #434455;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /* OUR TEAM SECTION */
