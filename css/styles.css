@@ -232,6 +232,7 @@ img {
   display: flex;
   gap: 24px;
   margin-bottom: 120px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-item {
@@ -240,10 +241,6 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-top-right-radius: 4px;
-  border-bottom-left-radius: 4px;
 }
 
 .our-team-item-title {
