@@ -21,6 +21,7 @@ p {
 
 a {
   text-decoration: none;
+  color: #434455;
 }
 
 a:hover,
@@ -45,7 +46,6 @@ img {
 /* HEADER STYLES */
 
 .header {
-  display: flex;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -54,8 +54,13 @@ img {
   padding-left: 0;
   padding-right: 0;
   margin: 0 auto;
-  justify-content: space-around;
+}
+
+.header-container {
+  align-items: center;
   padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-nav {
@@ -66,7 +71,6 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
 }
 
 .nav-item {
@@ -79,6 +83,7 @@ img {
   color: #2e2f42;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 
 .address-info {
@@ -117,11 +122,6 @@ img {
 
 .hero {
   background-color: #2e2f42;
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 188px 0;
 }
 
@@ -130,9 +130,11 @@ img {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -148,6 +150,7 @@ img {
   height: 56px;
   display: block;
   min-width: 169px;
+  margin: 0 auto;
 }
 
 .button:hover,
@@ -196,14 +199,12 @@ img {
 }
 
 .feature-title {
-  text-align: center;
   margin-bottom: 8px;
 }
 
 .feature-text {
   color: #434455;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 /* OUR TEAM SECTION */
@@ -231,7 +232,6 @@ img {
 .our-team-list {
   display: flex;
   gap: 24px;
-  margin-bottom: 120px;
 }
 
 .our-team-item {
@@ -248,7 +248,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 32px;
   margin-bottom: 8px;
   text-align: center;
 }
@@ -257,15 +256,9 @@ img {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-bottom: 32px;
   text-align: center;
 }
 /* PORTFOLIO SECTION */
-
-.portfolio-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
 .portfolio-title {
   font-weight: 700;
@@ -289,7 +282,6 @@ img {
 
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
-  border: 1px solid #e7e9fc;
 }
 
 .app-card {
