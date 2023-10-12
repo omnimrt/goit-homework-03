@@ -240,6 +240,7 @@ img {
   flex-direction: column;
   justify-content: center;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .our-team-item-title {
@@ -260,6 +261,11 @@ img {
 }
 /* PORTFOLIO SECTION */
 
+.portfolio-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -268,7 +274,6 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -277,7 +282,6 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  margin-bottom: 120px;
 }
 
 .portfolio-list-item {
